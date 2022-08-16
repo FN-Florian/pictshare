@@ -40,7 +40,8 @@
         <div class="container" id="headcontainer">
             <div class="row">
                 <div class="col-md-8">
-                    <a href="/"><img src="/css/imgs/logo/horizontal3.png" /></a>
+                    <a href="/"><img src="/css/imgs/logo/horizontal3.png" /><br>
+                    <img src="/css/imgs/mrm-after-ten-years.png" /></a>
                     <?php 
                         if(file_exists(ROOT.DS.'notice.txt'))
                             echo '<div class="alert alert-warning" role="alert">'.file_get_contents(ROOT.DS.'notice.txt').'</div>';
@@ -70,7 +71,7 @@
                 </div>
             </div>
             
-            <footer>(c)<?php echo date("y");?> by<br/><a href="https://haschek.solutions" target="_blank"><img height="30" src="/css/imgs/hs_logo.png" /></a></footer>
+            <footer>(c)<?php echo date("y");?> by<br/><a href="https://haschek.solutions" rel="nofollow" target="_blank"><img height="30" src="/css/imgs/hs_logo.png" /></a></footer>
       </div>
       
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
